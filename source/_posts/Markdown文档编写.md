@@ -1,7 +1,18 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-06-19 22:14:58
+ * @LastEditTime: 2020-06-20 00:36:39
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \undefinedd:\MyBlog\source\_posts\Markdown文档编写.md
+--> 
 ---
 title: Markdown文档编写
 date: 2020-04-16 10:08:10
-tags: hexo
+categories:
+- Markdown
+tags:
+- 编写规范
 ---
 Markdown文档的编写规则其实很简单，下面是演示结果：
 <!-- more -->

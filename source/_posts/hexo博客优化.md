@@ -1,7 +1,11 @@
 ---
 title: hexo博客优化
 date: 2020-04-16 09:48:12
-tags: hexo
+categories:
+- hexo
+tags:
+- 博客优化
+- 资源分享
 ---
 给那些想要使用hexo自建博客的人一点建议。
 <!-- more -->

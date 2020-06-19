@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Willing
-subtitle: ''
-description: ''
+title: 江湖路漫漫
+subtitle: 有人的地方就有江湖
+description: 路漫漫其修远兮，吾将上下而求索。
 keywords:
-author: Willing
-language: en
+author: 征寻
+language: zh-CN
 timezone: ''
 
 # URL
@@ -29,7 +29,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -47,7 +47,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia-plus
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -102,30 +102,3 @@ deploy:
   repo: git@github.com:gzx201720625/gzx201720625.github.io.git
   branch: master
   
-  type: git
-  repository: git@github.com:gzx201720625/gzx201720625.github.io.git
-  branch: hexo
-  extend_dirs: /
-  ignore_hidden: false
-  ignore_pattern:
-  public: .
-  node_modules: .
-
-jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
