@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Markdown文档编写</title>
+    <url>/2020/04/16/Markdown%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99/</url>
+    <content><![CDATA[<p>Markdown文档的编写规则其实很简单，下面是演示结果：</p>
+<a id="more"></a>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>在想要设置为标题的文字前面加#（#和内容之前需要空一个空格），Markdown一共支持六级标题，几级标题加几个#。</p>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p>Markdown划分段落非常简单，就是在段落前后保留一个空行即可。</p>
+<p>就是这么简单！</p>
+<h2 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h2><blockquote>
+<p>如果我们需要对一段内容进行强调显示时，Markdown提供了一个特殊符号&gt;（&gt;和之前需要空一个空格）用于段落区块引用。</p>
+<p>Markdown支持同时强调引用多个段落。</p>
+</blockquote>
+<h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><p>中括号里写显示文字+小括号里写地址；图片超链接在前面加一个！。</p>
+<p><a href="https://blog.csdn.net/sanallen/article/details/92081911" target="_blank" rel="noopener">超链接显示文字</a></p>
+<p><img src="http://localhost:4000/images/%E5%A4%B4%E5%83%8F.jpg" alt="风景"></p>
+<h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>无序列表使用*、+、-标识，但是一般使用来标识无序列表</p>
+<p>*无序列表项<br>*无序列表项<br>*无序列表项</p>
+<p>Markdown支持多级列表嵌套，但是建议一般不使用超过两级列表，另外建议两级列表从缩进3个空格开始(适用于无序列表)，如下所示：</p>
+<p>*无序列表项<br>    *第二层列表项<br>    *第二层列表项<br>*无序列表项<br>*无序列表项</p>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>有序列表使用数字.标识</p>
+<p>1.有序列表项1<br>2.有序列表项2<br>3.有序列表项3<br>4.有序列表项4<br>    1.有序列表项41<br>    2.有序列表项42<br>5.有序列表项5</p>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><hr>
+<hr>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p><em>这里包含斜体内容</em></p>
+<p><strong>这里包含加粗内容</strong></p>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://blog.csdn.net/sanallen/article/details/92081911" target="_blank" rel="noopener">Markdown文档编写指南</a></p>
+]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>编写规范</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/04/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo博客优化</title>
+    <url>/2020/04/16/hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<p>给那些想要使用hexo自建博客的人一点建议。</p>
+<a id="more"></a>
+<blockquote>
+<p>1、我在网上搜索的时候找到了两款yilia主题，根据自己喜好选择：<br><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">yilia</a>  比较简约<br><a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank" rel="noopener">yilia-plus</a>  功能齐全但作者连接多，需要自己修改删除。</p>
+</blockquote>
+<blockquote>
+<p>2、部署git的时候一定要注意顺序，给大家推荐一个保姆级Windows系统自建hexo博客的视频：<br><a href="https://www.bilibili.com/video/BV1pt411K7o9?p=8" target="_blank" rel="noopener">一步一步教你如何在Windows10上完成hexo博客搭建和yilia主题使用</a></p>
+</blockquote>
+<blockquote>
+<p>3、接下来就是hexo博客的优化，我推荐一下几个：<br><a href="https://cloudy-liu.github.io/2018/04/07/Hexo_yilia_%E4%B8%BB%E9%A2%98%E4%B8%80%E6%8F%BD%E5%AD%90%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88/" target="_blank" rel="noopener">Hexo yilia 主题一揽子使用方案</a><br><a href="https://zhousiwei.gitee.io/ibooks/" target="_blank" rel="noopener">技术笔记</a></p>
+</blockquote>
+<p>因为yilia的主题使用者比较多，所以网上有很多解决方法，大家不妨去查一下。</p>
+<blockquote>
+<p>给大家一个忠诚的建议，不要怕把博客弄坏了，删了重建就行了。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>博客优化</tag>
+        <tag>资源分享</tag>
+      </tags>
+  </entry>
+</search>
