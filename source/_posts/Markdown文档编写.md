@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2020-06-19 22:14:58
- * @LastEditTime: 2020-06-20 00:36:39
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: \undefinedd:\MyBlog\source\_posts\Markdown文档编写.md
---> 
 ---
 title: Markdown文档编写
 date: 2020-04-16 10:08:10
@@ -42,7 +34,7 @@ Markdown划分段落非常简单，就是在段落前后保留一个空行即可
 
 [超链接显示文字](https://blog.csdn.net/sanallen/article/details/92081911)
 
-![风景](https://cn.bing.com/images/search?view=detailV2&ccid=%2bUL1ALZq&id=CCE9ACB6D55C92E295D021E67454D4C0586B44E4&thid=OIP.-UL1ALZqQLbVMNynhlNV2QHaE8&mediaurl=http%3a%2f%2fimg17.3lian.com%2fd%2ffile%2f201701%2f23%2f9036cbb567b39115e528f26255ca9601.jpg&exph=800&expw=1200&q=%e5%9b%be%e7%89%87%e5%a4%a7%e5%85%a8%e9%a3%8e%e6%99%af&simid=607999229361784806&selectedIndex=4)
+![风景](http://localhost:4000/images/%E5%A4%B4%E5%83%8F.jpg)
 
 ## 无序列表
 无序列表使用*、+、-标识，但是一般使用来标识无序列表
@@ -80,6 +72,11 @@ Markdown支持多级列表嵌套，但是建议一般不使用超过两级列表
 *这里包含斜体内容*
 
 **这里包含加粗内容**
+
+## 代码块
+```
+
+```
 
 ## 参考文档
 [Markdown文档编写指南](https://blog.csdn.net/sanallen/article/details/92081911)
